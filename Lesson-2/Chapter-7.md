@@ -7,6 +7,7 @@ Most of the time you don't need to use these keywords because Solidity handles t
 
 However, there are times when you do need to use these keywords, namely when dealing with structs and arrays within functions:
 
+```
 contract SandwichFactory {
 struct Sandwich {
 string name;
@@ -40,5 +41,5 @@ function eatSandwich(uint \_index) public {
 
 }
 }
-
+```
 For now, it's enough to understand that there are cases where you'll need to explicitly declare storage or memory!
